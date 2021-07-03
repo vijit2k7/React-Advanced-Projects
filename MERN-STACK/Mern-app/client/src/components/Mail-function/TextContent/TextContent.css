@@ -1,0 +1,72 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+.wrapper img {
+    width: 50%;
+    object-fit: cover;
+}
+.noMailContentWrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noMailContentWrapper div:nth-child(2) {
+    font-weight: 600;
+    font-size: 0.9em;
+    margin: 20px 0 10px 0;
+}
+.noMailContentWrapper div:nth-child(3) {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+.mainBody {
+    padding: 1rem;
+}
+.mainBody .profileHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainBody .profileHeader .outerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainBody .profileHeader .outerFlex .innerFlex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 1rem;
+    justify-content: space-around;
+}
+.mainBody .profileHeader .outerFlex .innerFlex span:nth-child(1) {
+    font-weight: 300;
+}
+.mainBody .profileHeader .outerFlex .innerFlex span:nth-child(2) {
+    font-weight: 600;
+}
+.mainBody .profileIconStyles {
+    color: #e6e6e6;
+}
+.mainBody .deleteIconStyles {
+    color: #535c68;
+    cursor: pointer;
+}
+.mainBody .deleteIconStyles:hover {
+    color: black;
+}
+.mainBody hr {
+    border: none;
+    height: 1px;
+    background-color: #e6e6e6;
+}
+.mainBody main {
+    padding: 0.8rem 0.5rem;
+}
+.mainBody main .dangerousDiv {
+    white-space: pre-line;
+    font-size: 0.9em;
+}

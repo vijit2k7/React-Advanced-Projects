@@ -1,0 +1,43 @@
+
+[
+    {
+        "fullText": "Hello this is just some random post created to show an example mock post for this coding challenge",
+        "dateTimeCreated": "2020-07-20T18:44:11Z",
+        "dateTimeLastModified": "2020-10-20T18:13:27Z",
+        "type": "Post",
+        "from": {
+            "name": "Teams User1",
+            "email": "testuser1@microsoft.com"
+            }
+    },
+    {
+        "fullText": "Bonjour this is just some random reply created to show an example mock reply for this coding challenge. Now go ahead and create your own data",
+        "dateTimeCreated": "2020-07-17T12:24:13Z",
+        "dateTimeLastModified": "2021-02-07T03:30:09Z",
+        "type": "Reply",
+        "from": {
+            "name": "Teams user2",
+            "email": "testuser2@microsoft.com"
+            }
+    },
+    {
+        "fullText": "Ola this is just some random reply created to show an example mock reply for this coding challenge. Now go ahead and create your own data",
+        "dateTimeCreated": "2020-07-17T12:24:13Z",
+        "dateTimeLastModified": "2021-02-07T03:30:09Z",
+        "type": "Reply",
+        "from": {
+            "name": "Teams user3",
+            "email": "testuser3@microsoft.com"
+            }
+    },
+    {
+        "fullText": "Hi this is just some random reply created to show an example mock reply for this coding challenge. Now go ahead and create your own data",
+        "dateTimeCreated": "2020-07-17T12:24:13Z",
+        "dateTimeLastModified": "2021-02-07T03:30:09Z",
+        "type": "Reply",
+        "from": {
+            "name": "Teams user4",
+            "email": "testuser4@microsoft.com"
+            }
+    }
+]
